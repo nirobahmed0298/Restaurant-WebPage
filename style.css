@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;height: auto;
+    display: block;
+}
+header{
+    background-image: url(./Background.jpg);
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+#navbarSupportedContent ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0 30px;
+}
+.navbar-toggler-icon{
+    background-color: rgb(208, 208, 208) !important;
+    padding:10px 15px;border-radius: 5px;
+}
+.content{
+    text-align: center;
+
+}
+.content p{
+    color: white;
+    margin-bottom: 5%;
+
+}
+.content h1{
+    margin-top: 5%;
+    font-size: 60px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+.content a,.wings  a,.satay a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 12px;font-weight: 700;
+    border: 1px solid #f5d365;
+    padding: 8px 40px;
+    background-color: #f5d365;
+}
+.content a:hover{
+    background-color: #c7c6c4;
+    transition: 1s;
+    color: black ;
+}
+.section{
+    background-color: #f5d365;
+    text-align: center;
+}
+.container h2{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding: 40px 0px;
+}
+.container p{
+    margin-top: -2%;
+    margin-bottom: 4%;
+    font-size: 12px;
+}
+.sec-content h5{
+    margin: 5% 0 5%  0 ;
+    font-weight: 700;
+}
+.Chicken-wings{
+    background-image: url(./Background-Shape.jpg);
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: center;
+}
+.wings img{
+    padding: 30px 0;
+    width: 300px;
+}
+.wings h3{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.wings p{
+    margin-top: 5%;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10%;
+}
+.wings  a:hover{
+    background-color: #c7c6c4;
+    transition: 1s;
+    color: black ;
+}
+.statistics{
+    background-color: #f5d365;
+    text-align: center;
+}
+.statistics h2{
+    padding: 20px 0;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+.statistics p{
+    margin-bottom: 5%;
+}
+.statistics-item{
+    border: 5px solid #000000;
+    padding: 60px 0px;
+    margin-bottom: 10%;
+}
+.Chicken-satay{
+    background: url(./Background-Shape.jpg);
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: center;
+    height:70vh;
+}
+.satay h3{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.satay p{
+    margin-top: 2%;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+.satay img{
+    width: 50%;
+    margin-top: 5%;
+}
+.chef{
+    text-align: center;
+    position: relative;
+    height: 60vh;
+}
+.chef-img {
+    position: absolute;
+    left: 50%;top: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+}
+.chef-img h4{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 5%;
+}
+.our-update{
+    background-color: #f5d365;
+    height: 80vh;
+    text-align: center;
+}
+.our-update h1{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 30px;
+}
+.our-update p{
+    margin-bottom: 5%;
+}
+.our-update input{
+    display: inline;
+    width:30%;
+    height: 40px !important;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+}
+.contact ul{
+    display: flex;
+}
+.contact-icon{
+    display: flex;
+}
+.contact-icon li{
+    list-style: none;
+}
+.contact-icon li a{
+    padding: 0 10px;
+    color: white;
+}
+ul li >a{
+    text-decoration: none;
+    color: white; 
+
+}
+
+
+/**********************Responsive***************************/
+@media (max-width:991px){
+    #navbarSupportedContent ul{
+        background-color: aliceblue;
+        color: black; 
+        padding:  10px 0;
+        z-index: 1;
+    }
+    #navbarSupportedContent ul li a{
+        color: black;
+        text-align: center;
+    }
+    .content p{
+    font-size: 15px;
+    
+    }
+    .content h1{
+        font-size: 50px; 
+    }
+    .content a{
+        font-size: 10px;
+    }
+    .sec-content img{
+        width: 100%;
+    }
+    .Chicken-wings{
+        height: 100vh !important;
+    }
+    .wings img{
+        width: 220px;
+    }
+    .col-lg-5 h3{
+        font-size: 40px !important;
+    }
+    .wings p{
+        margin-top: 5%;
+        margin-bottom: 15%;
+        font-size: 15px;
+    }
+    .statistics-item{
+        width: 300px !important;
+        padding: 60px 0px;
+        margin-bottom: 10%;
+    }
+    .satay h3{
+        font-size: 30px;
+    }
+    .satay p{
+        margin-top: 1%;
+        font-size: 10px;
+        margin-bottom: 10%;
+    }
+    .satay img{
+        width: 60%;
+        margin-top: 8%;
+    }
+    .our-update h1{
+        font-size: 40px;
+    }
+    .our-update p{
+        margin-bottom: 2%;
+    }
+
+
+}
+
+@media(max-width:491px){
+    header{
+        height: 60vh;
+    }
+    .content p{
+        font-size: 10px;
+        
+        }
+    .content h1{
+        font-size: 40px; 
+    }
+    .content a{
+        padding: 5px 30px;
+    }
+    .Chicken-wings,.Chicken-satay{
+        height:60vh !important;
+    }
+    .wings img{
+        width: 200px;
+    }
+    .col-lg-5 h3{
+        font-size: 20px !important;
+    }
+    .Chicken-wings{
+        height: 60vh;
+    }
+    .wings p{
+        margin-top: 0%;
+        margin-bottom: 15%;
+        font-size: 12px;
+    }
+    .statistics-item{
+        width: 120px !important;
+        padding: 15px 10px;
+    }
+    .statistics h2{
+        padding: 20px 0;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    .statistics p{
+        font-size: 12px;
+    }
+    .statistics-item h1{
+        font-size: 20px;
+    }
+    .statistics-item h3{
+        font-size: 12px;
+    }
+    .satay h3{
+        font-size: 20px;
+    }
+    .satay p{
+        margin-top: 1%;
+        font-size: 8px;
+        margin-bottom: 12%;
+    }
+    .satay img{
+        width: 80%;
+        margin-top: 10%;
+    }
+    .our-update h1{
+        font-size: 25px;
+    }
+    .our-update p{
+        margin-bottom: 5%;
+         font-size: 10px;
+    }
+    .our-update input{
+        width: 60%;
+        display: inline-block;
+    }
+
+    
+}
